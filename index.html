@@ -487,7 +487,7 @@
         function showPopup() {
             const message = messages[currentMessageIndex];
             popupImage.src = message.img;
-            popupMessage.textContent = message.text;
+            popupMessage.innerHTML = message.text;
             popup.style.display = "block";
             overlay.classList.add("active");
 
@@ -522,6 +522,7 @@
 
 
 </html>
+
 
 
 
